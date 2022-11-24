@@ -1,6 +1,6 @@
 import React from 'react'
 import {useDispatch} from 'react-redux';
-import {removePost, removePostbyId} from '../store/features/post/post-slice';
+import {removePostbyId} from '../store/features/post/post-slice';
 
 const PostItem = ({post}) => {
     const dispatch = useDispatch()
